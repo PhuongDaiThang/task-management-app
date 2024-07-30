@@ -1,11 +1,8 @@
 # Task Management Application
-
 Ứng dụng Quản lý Nhiệm vụ là một dự án mẫu xây dựng bằng Spring Boot, cho phép người dùng quản lý các nhiệm vụ của họ một cách hiệu quả. Dự án này bao gồm các chức năng chính như đăng nhập, quản lý danh sách nhiệm vụ, phân công nhiệm vụ, và báo cáo tiến độ.
-
 ## Cấu trúc Dự án
-
 Dưới đây là cấu trúc thư mục của dự án:
-
+```bash
 taskmanagement/
 ├── src/
 │ ├── main/
@@ -24,7 +21,7 @@ taskmanagement/
 │ │ └── templates/
 │ │ └── index.html
 └── pom.xml
-
+```
 ## Các Thành phần
 
 - **TaskmanagementApplication.java**: Lớp chính để khởi động ứng dụng Spring Boot.
